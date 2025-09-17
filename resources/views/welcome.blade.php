@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 <!DOCTYPE html>
 <html lang="id">
@@ -67,6 +67,6 @@
         <p>&copy; 2025 <span class="text-indigo-400 font-semibold">Perpustakaan Mini</span> • Dibuat dengan menggunakan Laravel & Tailwind CSS</p>
     </footer>
 
-</body>
+ </body>
 </html>
     
