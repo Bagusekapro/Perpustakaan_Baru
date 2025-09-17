@@ -6,6 +6,7 @@
   },
   "resources/js/app.js": {
     "file": "assets/app-C0G0cght.js",
+    "src":"resources/js/app/js",
     "isEntry": true
   }
 }
