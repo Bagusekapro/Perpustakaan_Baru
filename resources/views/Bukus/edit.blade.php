@@ -1,5 +1,6 @@
 @extends('layouts.app')
-<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+@vite('resources/css/app.css')
+
 
 @section('content')
 <div class="container mx-auto p-6">

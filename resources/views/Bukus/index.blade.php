@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
-@section('content')
-<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+@section('content') 
+@vite('resources/css/app.css')
+
+@vite('resources/js/app.js')
+
 
     @if (session('success'))
         <script>

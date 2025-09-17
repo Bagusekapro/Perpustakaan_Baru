@@ -2,7 +2,8 @@
 
 @section('content')
 
-<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+@vite('resources/css/app.css')
+
 
 @if(session('success'))
 <script>

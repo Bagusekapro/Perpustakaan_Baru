@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+@vite('resources/css/app.css')
+
 
 <div class="container mx-auto p-6">
     <h1 class="text-2xl font-bold mb-4">➕ Tambah Anggota Baru</h1>
